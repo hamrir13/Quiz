@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     
     //initiate an array of questions
     let questions: [String] = ["What is 7+7?",
-                               "What is the capital of Vermont",
+                               "What is the capital of Vermont?",
                                "What is cognac made from?",
                                "Who is the main actor in Cast Away?",
                                "What can you find on the beach?"
@@ -35,6 +35,7 @@ class ViewController: UIViewController {
     //keep track of what question the user is on
     var currentQuestionIndex: Int = 0
     
+
     //func showNextQuestion(UIButton)
     //displays the next question in the quiz
     @IBAction func showNextQuestion(_ sender: UIButton){
@@ -58,7 +59,9 @@ class ViewController: UIViewController {
     //load the initial screen of the quiz app
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         questionLabel.text = questions[currentQuestionIndex]
     }
+
 }
 

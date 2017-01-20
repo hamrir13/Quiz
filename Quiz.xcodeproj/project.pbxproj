@@ -14,6 +14,7 @@
 		B67556111E26DC3900077249 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B675560F1E26DC3900077249 /* LaunchScreen.storyboard */; };
 		B675561C1E26DC3900077249 /* QuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B675561B1E26DC3900077249 /* QuizTests.swift */; };
 		B67556271E26DC3900077249 /* QuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67556261E26DC3900077249 /* QuizUITests.swift */; };
+		B6770A381E312C0800C83A44 /* OpeningScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6770A371E312C0800C83A44 /* OpeningScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B67556221E26DC3900077249 /* QuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B67556261E26DC3900077249 /* QuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizUITests.swift; sourceTree = "<group>"; };
 		B67556281E26DC3900077249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6770A371E312C0800C83A44 /* OpeningScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpeningScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				B67556061E26DC3900077249 /* AppDelegate.swift */,
 				B67556081E26DC3900077249 /* ViewController.swift */,
 				B675560A1E26DC3900077249 /* Main.storyboard */,
+				B6770A371E312C0800C83A44 /* OpeningScreen.swift */,
 				B675560D1E26DC3900077249 /* Assets.xcassets */,
 				B675560F1E26DC3900077249 /* LaunchScreen.storyboard */,
 				B67556121E26DC3900077249 /* Info.plist */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B67556091E26DC3900077249 /* ViewController.swift in Sources */,
+				B6770A381E312C0800C83A44 /* OpeningScreen.swift in Sources */,
 				B67556071E26DC3900077249 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
